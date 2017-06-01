@@ -1,0 +1,16 @@
+.majorLink{
+
+	background-color: lime;
+	color: white;
+	padding: 10px 10px 10px 10px !important;
+	text-align: center;
+	vertical-align: middle;
+
+	transition: 0.5s;
+}
+
+.majorLink:hover{
+
+	text-shadow: 0 0 10px white;
+
+}

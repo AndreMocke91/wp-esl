@@ -1,0 +1,54 @@
+.cardContainer{
+	position: relative;
+	float: none;	
+}
+
+.wordCard{	
+	position: relative;
+	float: none;	
+	border: 15px solid rgb(50,200,150);	
+	padding: 20px;	
+	margin: 10px;
+	display: inline-block;	
+	page-break-after: auto;
+	height: 120px;	
+}
+
+.contentParagraph{
+	margin:0;
+	-webkit-margin-before : 0;
+	-webkit-margin-after : 0;
+	position: relative;
+	float: none;
+	
+	width: 530px; 
+	text-align: center;
+	font-size: 110px;
+	font-family: "Century Gothic";
+	top: -20px;
+	font-weight: bold;
+}
+
+.postScript{	
+	position: absolute;
+	width: 95%;
+	top: 160px;	
+}
+
+.postScript p{
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	font-size: 12px;
+	text-align: right;
+	font-family: Century Gothic;
+	
+	-webkit-margin-before : 0;
+	-webkit-margin-after : 0;
+}
+
+@font-face {
+    font-family: Trace;
+    src: url(../fonts/TRACE___.TTF);
+}
+
